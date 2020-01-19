@@ -1,0 +1,19 @@
+Criação do packege yarn
+$ yarn ini -y
+
+Instalando dependencias:
+
+Express - Para levantar servidor local e executar a aplicação index.js
+$ yarn add express
+
+Nodemon - Dependencia de desenvolvimento para atualizar automaticamente o node sem ter que parar o servidor
+$ yarn add nodemon -D
+
+Executar app com nodemon
+$ yarn nodemon index.js
+
+Instalando o MongoDb
+$ yarn add mongoose
+
+Instalando Axios - Executa chama para outras API's
+$ yarn add axios
